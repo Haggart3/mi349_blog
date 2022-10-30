@@ -42,10 +42,16 @@ th {
 }
 
 address {
-    margin: 10px;
-    font-size: 2em;
+    margin: 5px;
 }
+
+time {
+    margin: 5px;
+}
+
 img {
     border: 1px solid #708090;
     display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
