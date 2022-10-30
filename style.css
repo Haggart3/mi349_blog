@@ -1,0 +1,51 @@
+html {
+    background: #e3e3e3;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 35px;
+    padding: 35px;
+    color: #242424;
+    border-top: 10px solid #708090;
+    background: #fff;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.navigation {
+    border-top: 1px solid #708090;
+    border-bottom: 1px solid #708090;
+    margin: 10px;
+}
+
+h2 {
+    font-size: large;
+    text-align: center;
+    margin-top: 10px;
+}
+
+p {
+    line-height: 1.4;
+    margin: 3px;
+}
+
+#post {
+    border-bottom: 1px solid #708090;
+}
+
+th {
+    font-size: medium;
+}
+
+address {
+    margin: 10px;
+    font-size: 2em;
+}
+img {
+    border: 1px solid #708090;
+    display: block;
+}
