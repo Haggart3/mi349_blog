@@ -11,16 +11,36 @@ body {
     background: #fff;
 }
 
+
+
+.navigation {
+    width: 130px;
+    height: 100%;
+    position: sticky;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+    border-top: 1px solid #708090;
+    border-bottom: 1px solid #708090;
+    padding-right: 5px;
+}
+
+.navigation a {
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+}
+
+.content {
+    margin-left: 130px;
+    padding: 0px 10px;
+}
+
 h1 {
     font-size: 3em;
     margin: 0;
 }
 
-.navigation {
-    border-top: 1px solid #708090;
-    border-bottom: 1px solid #708090;
-    margin: 10px;
-}
 
 h2 {
     font-size: large;
@@ -54,4 +74,23 @@ img {
     display: block;
     margin-top: 5px;
     margin-bottom: 5px;
+}
+
+#self {
+    float: right;
+    width: 460px;
+    padding: 15px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.container {
+    column-count: 2;
+    column-gap: 35px;
+}
+
+.container option {
+    border: 1px solid black;
+    padding: 15px;
+
 }
