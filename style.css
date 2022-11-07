@@ -94,3 +94,20 @@ img {
     padding: 15px;
 
 }
+
+.bio {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+#myself {
+    align-self: left;
+    justify-content: left;
+}
+
+#stats {
+    justify-content: right;
+}
+
